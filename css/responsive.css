@@ -8,6 +8,16 @@
     #team .box{
         height: 420px;
     }
+    /* go to top */
+
+.gototop .to{
+    width: 40px;
+    height: 40px;
+}
+.gototop .bx{
+    font-size:18px;
+    border: 1px solid #eee;
+}
 }
 
 

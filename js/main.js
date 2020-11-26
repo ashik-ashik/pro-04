@@ -3,6 +3,20 @@
 
 
     $(document).ready(function(){
+
+        // gototop
+        $(window).scroll(function(){
+            if($(this).scrollTop()>200){
+                document.querySelector('.gototop').style.visibility = "visible";
+                $('.gototop').fadeIn();
+            }else{
+                $('.gototop').fadeOut(); 
+            }
+        });
+    
+        $('.gototop').click(function(){
+            $('html, body').animate({scrollTop:0}, 1000)
+        })
     
         // slider
 
