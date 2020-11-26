@@ -1,0 +1,40 @@
+/*<!--For X-small device-->*/
+
+@media (max-width: 767px) {
+    .icon-box{
+        top: -15%;
+        left: 44%;
+    }
+    #team .box{
+        height: 420px;
+    }
+}
+
+
+/*<!--For small device-->*/
+
+@media only screen and (min-width:768px) and (max-width: 991px) {
+    .icon-box{
+        top: -15%;
+        left: 38%;
+    }
+}
+
+
+/*<!--For medium device-->*/
+
+@media only screen and (min-width:992px) and (max-width: 1199px) {
+    .icon-box{
+        top: -12%;
+        left: 32%;
+    }
+}
+
+
+/*<!--For Large device-->*/
+
+@media (min-width:1200px) {
+   
+    
+}
+

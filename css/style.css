@@ -1,0 +1,271 @@
+
+/* common css start */
+hr{
+    background: #000;
+}
+/* common css end */
+
+/* top bar  css start */
+#topbar .dropdown-menu{
+    z-index: 99999999999999;
+}
+/* top bar  css end */
+
+/* menu bar  css start */
+#menu .navbar-brand img{
+    height: 40px;
+}
+/* menu bar  css end */
+
+/* slider  css start */
+#myslider{
+    background: url(../img/bg-33.jpg) center center;
+    background-size: cover;
+}
+/* slider  css end */
+
+/*  services  css start */
+#services .box{
+    border-color: #464545 !important;
+}
+.icon-box{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: -14%;
+    left: 35%;
+    transform: translateX(-50%);
+    transform: rotate(45deg);
+    transition: ease-in-out .4s;
+    border-color: #464545 !important;
+}
+.icon-box .bx{
+    transform: rotate(-45deg);
+    font-size: 40px;
+    transition: ease-in-out .4s;
+}
+#services .box:hover .icon-box{
+    background: #196264 !important;
+    border-color: #196264 !important;
+    transform: rotate(135deg);
+}
+#services .box:hover{
+    border-color: #196264 !important;
+}
+#services .box:hover a{
+    color: #196264 !important;
+}
+#services .box:hover .icon-box .bx{
+    color: #ffffff !important;
+    transform: rotate(-495deg);
+}
+#services .box h4 div{
+    display: block;
+    width: 80px;
+    /* height: 10px; */
+    border-bottom: 3px double #6d7070;
+    /* background: #196264; */
+    margin: 9px auto;
+}
+/*  services  css end */
+
+/*  recent  css start */
+#recent-work .owl-carousel .item {
+    height: 270px !important;
+}
+#recent-work .owl-carousel .item .img-fluid {
+    height: 270px !important;
+}
+.owl-theme .owl-nav {
+    margin-top: 10px;
+    position: absolute;
+    top: -30%;
+    right: 0;
+}
+.owl-carousel .owl-nav button.owl-next,
+ .owl-carousel .owl-nav button.owl-prev{
+     outline: none;
+ }
+.owl-carousel .owl-nav button.owl-next span,
+ .owl-carousel .owl-nav button.owl-prev span{
+     padding: 4px 15px;
+     font-size: 30px;
+     background: #ddd;
+ }
+.owl-carousel .owl-nav button.owl-next span:hover,
+ .owl-carousel .owl-nav button.owl-prev span:hover{
+     background: #444;
+ }
+ .owl-theme .owl-dots{
+    margin-top: 20px;
+}
+ .owl-theme .owl-dots button{
+    outline: none;
+    transition: ease-in-out .4s;
+}
+.owl-theme .owl-dots .owl-dot.active span{
+    width: 22px;
+    background: #000;
+    outline: none;
+    transition: ease-in-out .4s;
+}
+
+/* recent work hover effects */
+#recent-work .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(50deg, #ff9900be, #071de2a8);
+    overflow: hidden;
+    width: 100%;
+    height: 0%;
+    transition: .5s ease;
+    z-index: 5;
+  }
+  
+#recent-work .box:hover .overlay {
+    height: 100%;
+  }
+#recent-work .box .overlay .text{
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    top: 5%;
+    left: 5%;
+    background: linear-gradient(50deg, #071de2a8, #ff9900be);
+  }
+#recent-work .box .overlay .text .bx{
+    font-size: 20px;
+    background: #eee;
+    cursor: pointer !important;
+}
+
+#recent-slider .recent-overlay{
+    position: relative;
+    height: 100%;
+}
+
+#recent-work .box .overlay .text::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 100%;
+    border-bottom: 1px solid transparent;
+    border-left: 1px solid transparent;
+    box-sizing: border-box;
+    transform: translateX(100%);
+    z-index: 10;
+}
+#recent-work .box .overlay .text::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    border-top: 1px solid transparent;
+    border-right: 1px solid transparent;
+    box-sizing: border-box;
+    transform: translateX(-100%);
+    z-index: 10;
+}
+#recent-work .box .overlay .text:hover::before{
+    border-color: #fff;
+    height: 100%;
+    transform: translateX(0);
+    transition: .3s transform linear, .5s height linear .5s;
+}
+#recent-work .box .overlay .text:hover::after{
+    border-color: #fff;
+    height: 100%;
+    transform: translateX(0);
+    transition: .3s transform linear .3s, .5s height linear .5s;
+}
+/*  recent  css end */
+
+/*  testimonial section css start */
+#testimonial{
+    background: url(../img/bg-33.jpg) fixed center center;
+    background-size: cover;
+}
+#testimonial .testimonial-overlay{
+    background: linear-gradient(45deg, #04a4afb9, #d1e000a9);
+}
+/* testimonial section  css end */
+
+/*  testimonial section css start */
+.testi-user-box img{
+    width: 100px !important;
+    height: 100px;
+    border: 4px solid #eee;
+}
+/*  testimonial section css end */
+
+
+/*  team css start */
+#team .box{
+    height: 320px;
+}
+#team .box img{
+    height: 100%;
+}
+#team .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008bbabd;
+    overflow: hidden;
+    width: 100%;
+    height: 16%;
+    transition: .5s ease;
+  }
+  
+#team .box:hover .overlay {
+    height: 100%;
+  }
+  
+#team .box .text {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+  }
+#team .box .text h5 div{
+    width: 50px;
+    height: 1px;
+    background: #fff;
+    margin:7px auto;
+  }
+#team .box .text p{
+    font-size: 15px;
+  }
+#team .box .text p .bx{
+    border-color: #fff;
+  }
+/*  team css end */
+
+/*  clients secion css start */
+#clients img{
+    filter: grayscale(100);
+    transition: ease-in-out .4s;
+}
+#clients img:hover{
+    filter: grayscale(0);
+    transform: scale(1.2);
+}
+/*  clients secion css end */
+
+/*  footer section css start */
+#footer span{
+    font-size: 14px;
+}
+#footer hr{
+    background: #eee;
+}
+/*  footer section css end */
+/*   css start */
+/*   css end */
