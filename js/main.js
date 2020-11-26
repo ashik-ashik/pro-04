@@ -34,6 +34,9 @@
             // autoplay:true,
             dots:false,
             responsive:{
+                0:{
+                    items:1,
+                },
                 767:{
                     items:1,
                     nav:true,

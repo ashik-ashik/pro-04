@@ -1,9 +1,15 @@
 /*<!--For X-small device-->*/
 
 @media (max-width: 767px) {
+    #services .section-title h2{
+        font-size: 25px !important;
+    }
+    #services .section-title .lead{
+        font-size: 16px !important;
+    }
     .icon-box{
-        top: -15%;
-        left: 44%;
+        top: -14%;
+        left: 41%;
     }
     #team .box{
         height: 420px;
@@ -17,6 +23,15 @@
 .gototop .bx{
     font-size:18px;
     border: 1px solid #eee;
+}
+.container h2{
+    font-size: 25px;
+}
+.container .row h5{
+    font-size: 21px;
+}
+#testimonial .lead{
+    font-size: 15px !important;
 }
 }
 
