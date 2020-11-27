@@ -29,7 +29,7 @@ hr{
 
 /* top bar  css start */
 #topbar .dropdown-menu{
-    z-index: 99999999999999;
+    z-index: 9999999999999999999 !important;
 }
 /* top bar  css end */
 
@@ -56,8 +56,14 @@ hr{
     height: 80px;
     top: -14%;
     left: 35%;
-    transform: translateX(-50%);
-    transform: rotate(45deg);
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transition: ease-in-out .4s;
+    -o-transition: ease-in-out .4s;
     transition: ease-in-out .4s;
     border-color: #464545 !important;
 }
@@ -272,10 +278,12 @@ hr{
 
 /*  clients secion css start */
 #clients img{
+    -webkit-filter: grayscale(100);
     filter: grayscale(100);
     transition: ease-in-out .4s;
 }
 #clients img:hover{
+    -webkit-filter: grayscale(0);
     filter: grayscale(0);
     transform: scale(1.2);
 }
