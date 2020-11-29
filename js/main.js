@@ -36,10 +36,11 @@
             responsive:{
                 0:{
                     items:1,
+                    dots:true,
                 },
                 767:{
                     items:1,
-                    nav:true,
+                    nav:false,
                 },
                 992:{
                     items:2,

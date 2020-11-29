@@ -8,8 +8,7 @@
         font-size: 16px !important;
     }
     .icon-box{
-        top: -15%;
-        left: 41%;
+        top: -40px;
     }
     #team .box{
         height: 420px;
@@ -41,7 +40,6 @@
 @media only screen and (min-width:768px) and (max-width: 991px) {
     .icon-box{
         top: -15%;
-        left: 38%;
     }
 }
 
@@ -51,7 +49,6 @@
 @media only screen and (min-width:992px) and (max-width: 1199px) {
     .icon-box{
         top: -12%;
-        left: 32%;
     }
 }
 
@@ -59,7 +56,9 @@
 /*<!--For Large device-->*/
 
 @media (min-width:1200px) {
-   
+    .icon-box{
+        top: -14%;
+    }
     
 }
 
