@@ -76,7 +76,9 @@ img{
 #services .box:hover .icon-box{
     background: #196264 !important;
     border-color: #196264 !important;
-    transform: rotate(135deg);
+    -webkit-transform: translate(-50%) rotate(135deg);
+        -ms-transform: translate(-50%) rotate(135deg);
+            transform: translate(-50%) rotate(135deg);
 }
 #services .box:hover{
     border-color: #196264 !important;
